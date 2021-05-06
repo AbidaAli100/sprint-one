@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('background.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-color: rgb(167, 167, 245);
+    border-radius: 25px;
+    
+}  
+
+.nav-bar li {
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    right: 4em;
+    margin: 1em;
+    padding: 2px;
+    font-size: large;
+    font-weight: bold;
+    background-color: lightgoldenrodyellow;   
+
+}
+
+.nav-bar  li a{
+    display: block;
+    text-decoration: none;
+    color:  black;
+    background-color:lightgoldenrodyellow;
+}
+.image img{
+    position: absolute;
+    width: 20em;
+    margin-left: 5em;
+    margin-top: 8em;
+    float: left;
+    border-radius: 25px;
+}
+.intro {
+   
+    position: absolute;
+    margin-top: 13em;
+    right: 15em;
+}
+.intro p span{
+   font-weight: bolder;
+   font-size: x-large;
+}
+.intro p{
+    padding: 1em;
+     border-radius: 8px;
+    margin: 1em;
+    background-color: lightgoldenrodyellow;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: larger;
+    border: 2px solid black;
+}
+.intro button {
+    position: absolute;
+    padding: 1em;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    right: .2em;
+    
+}
+.intro a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+
+}
+
