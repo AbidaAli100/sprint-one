@@ -1,0 +1,141 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* background-image: url('image-new3.jpg');  */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover ;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+} 
+
+.container-fluid {
+
+    background-color: rgb(253, 255, 132);
+    display: block;
+}
+
+.container-fluid ul{
+    margin-left: 52.7em;
+    padding: 0%;
+
+    
+}
+
+.container-fluid li {
+    display: inline-block;
+    position: relative;
+    margin: 1em;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container-fluid  li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+
+    
+}
+picture img{
+    position: absolute;
+    width: 13em;
+    margin-left: 5em;
+    /* margin-top: 8em; */
+    float: left;
+    border-radius: 200px;
+    border: 2px solid rgb(27, 26, 26);
+}
+.main-content {
+   
+    position: absolute;
+    margin-top: 10em;
+    right: 10em;
+}
+.main-content p span{
+   font-weight: bolder;
+   font-size: x-large;
+}
+.main-content p{
+    padding: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: larger;
+    padding: 1em;
+    background-color: rgb(253, 255, 132);
+    border-radius: 8px;
+    
+    
+}
+.main-content button {
+    position: absolute;
+    padding: 1em;
+    background-color: rgb(253, 255, 132);
+    border-radius: 10px;
+    right: .2em;
+    
+}
+.main-content a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    font-style: italic;
+
+}
+.container{
+    margin: 100px 100px;
+    float: right;
+}
+.head{
+    
+    padding-right:  20em;
+    padding-left: 20em;
+    background-color:rgb(253, 255, 132) ;
+    border: 5px solid black;
+}
+.head form{
+    width: 100%;
+    height: 150px;
+   
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+}
+.head button{
+    border: 3px solid black;
+    padding: .5em;
+    font-weight: bolder;
+    background-color: rgb(253, 255, 132);
+    
+}
+h2 {
+     background-color: rgb(253, 255, 132);
+      position: relative;
+      display: inline-block;
+      align-self: center;
+      margin-right: 20px;
+      
+}
+
+.contact-me{
+    float: right;
+    padding-left: 20em;
+    padding-right: 20em;
+    background-color:rgb(253, 255, 132) ;
+    border: 5px solid black;
+}
+.contact-me li {
+    display: inline-block;
+    position: relative;
+    margin: 1em;
+    font-size: large;
+    font-weight: bold;
+   
+}
+.contact-me a {
+    text-decoration: none;
+    display: block;
+}
