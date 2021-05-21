@@ -5,15 +5,13 @@ body{
     background-position-x: center;
     background-size: cover ;
     font-style: italic;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: #f8f8f8;
    
 } 
 
 .container-fluid {
 
-    background-color: rgb(253, 255, 132);
+    background-color: rgb(132, 255, 255);
     display: block;
 }
 
@@ -39,22 +37,25 @@ body{
 
     
 }
-picture img{
+.image img{
     position: absolute;
     width: 13em;
-    margin-left: 5em;
+    margin-left: 8em;
     /* margin-top: 8em; */
     float: left;
     border-radius: 200px;
-    border: 2px solid rgb(27, 26, 26);
+    background-color:  rgb(132, 255, 255);
 }
 .main-content {
    
     position: absolute;
-    margin-top: 10em;
+    margin-top: 6em;
     right: 10em;
+    background-color: rgb(132, 255, 255);
+    border-radius: 50px;
+    
 }
-.main-content p span{
+.main-content {
    font-weight: bolder;
    font-size: x-large;
 }
@@ -64,27 +65,20 @@ picture img{
     font-weight: bold;
     font-size: larger;
     padding: 1em;
-    background-color: rgb(253, 255, 132);
+    background-color: rgb(132, 255, 255);
     border-radius: 8px;
-    
-    
 }
-.main-content button {
-    position: absolute;
-    padding: 1em;
-    background-color: rgb(253, 255, 132);
-    border-radius: 10px;
-    right: .2em;
-    
-}
-.main-content a{
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: larger;
-    color: black;
-    font-style: italic;
 
+
+.footer {
+    background-color: rgb(132,255,255);
+margin-top: 27em;
+    padding: 1em;
+    text-align: right;
+    
 }
+
+    
 .container{
     margin: 100px 100px;
     float: right;
@@ -120,14 +114,14 @@ h2 {
       
 }
 
-.contact-me{
-    float: right;
+.footer {
+    /* float: right; */
     padding-left: 20em;
     padding-right: 20em;
-    background-color:rgb(253, 255, 132) ;
-    border: 5px solid black;
+   
+    border: 2px solid black;
 }
-.contact-me li {
+.footer li {
     display: inline-block;
     position: relative;
     margin: 1em;
@@ -135,7 +129,7 @@ h2 {
     font-weight: bold;
    
 }
-.contact-me a {
+.footer a {
     text-decoration: none;
     display: block;
 }
