@@ -80,47 +80,57 @@ margin-top: 27em;
     
 }
 
-    
-.container{
-    margin: 100px 100px;
-    float: right;
-}
-.head{
-    
-    padding-right:  20em;
-    padding-left: 20em;
-    background-color:rgb(253, 255, 132) ;
-    border: 5px solid black;
-}
-.head form{
-    width: 100%;
-    height: 150px;
-   
-    box-sizing: border-box;
-    border-radius: 4px;
-    resize: none;
-}
-.head button{
-    border: 3px solid black;
-    padding: .5em;
-    font-weight: bolder;
-    background-color: rgb(253, 255, 132);
-    
-}
-/* h2 {
-     background-color: rgb(253, 255, 132);
-      position: relative;
-      display: inline-block;
-      align-self: center;
-      margin-right: 20px;
-       */
-/* } */
 h1{
     float: left;
     margin-left: 10px;
 }
-.Achivements{
-    align-content: flex-end;
+.achivements{
+    margin-top: 27em;
+    margin-left: 4em;
+}
+ .img-1 img{
+    position: absolute;
+    width: 200px;
+    margin-top: 3em;
+ margin-left: 8em;
+    border: 2px solid black;
+
+}
+.img-2 img{
+    position: absolute;
+    width: 200px;
+    height:280px;
+    margin-top: 2em;
+ margin-left: 50em;
+    border: 2px solid black;
+
+} 
+.heading-2{
+    /* border: 5px solid #a98ddd; */
+    width:  300px;
+    height:  100px;
+    margin-left: 26em;
+    margin-top: 8em;
+    
+}
+.form-init{
+    border: 5px solid #a98ddd;
+    width:  720px;
+    height:  550px;
+    margin-left: 26em;
+    margin-top: 2em;
+}
+.form-init label{
+    font-weight: bolder;
+    padding: 10px;
+}
+.form-init input{
+    border: 2px solid black;
+}
+.mb-4 textarea{
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 .footer {
@@ -128,8 +138,8 @@ h1{
     padding-left: 20em;
     padding-right: 20em;
     
-   
 }
+
 .footer li {
     display: inline-block;
     position: relative; 
@@ -144,4 +154,5 @@ h1{
     display: block;
     width: 50px;
     color: black;
+
 }
